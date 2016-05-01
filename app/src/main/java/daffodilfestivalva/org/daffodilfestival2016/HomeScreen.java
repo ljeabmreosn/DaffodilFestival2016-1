@@ -24,6 +24,7 @@ public class HomeScreen extends AppCompatActivity implements AdapterView.OnItemC
     private FragmentTransaction fragTransaction;
     private FragmentManager fragManager;
     private ActionBar actionBar;
+    private int lastClickedPosition;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,7 +60,7 @@ public class HomeScreen extends AppCompatActivity implements AdapterView.OnItemC
 
     private void loadFrag(int i)
     {
-        navList.setItemChecked(i, true);
+        navList.setItemChecked(i == 2 ? lastClickedPosition : i, true);
         if(i == 0)
         {
             actionBar.setTitle("Welcome to the 2016 Daffodil Festival");
@@ -72,8 +73,8 @@ public class HomeScreen extends AppCompatActivity implements AdapterView.OnItemC
         {
             actionBar.setTitle("About Us");
             fragTransaction = fragManager.beginTransaction();
-            AboutUs aboutUs = new AboutUs();
-            fragTransaction.replace(R.id.fragmentholder,aboutUs);
+            MyFragment_1 myFragment_1 = new MyFragment_1();
+            fragTransaction.replace(R.id.fragmentholder, myFragment_1);
             fragTransaction.commit();
         }
         else if(i == 2)
@@ -88,17 +89,13 @@ public class HomeScreen extends AppCompatActivity implements AdapterView.OnItemC
         {
             actionBar.setTitle("Schedule");
             fragTransaction = fragManager.beginTransaction();
-            Schedule schedule = new Schedule();
-            fragTransaction.replace(R.id.fragmentholder,schedule);
+            MyFragment_3 myFragment_3 = new MyFragment_3();
+            fragTransaction.replace(R.id.fragmentholder, myFragment_3);
             fragTransaction.commit();
         }
         else if(i == 4)
         {
-            actionBar.setTitle("Map");
-            fragTransaction = fragManager.beginTransaction();
-            Map map = new Map();
-            fragTransaction.replace(R.id.fragmentholder,map);
-            fragTransaction.commit();
+            new ViewPDF().execute(this);
         }
         else if(i == 5)
         {
@@ -155,6 +152,7 @@ public class HomeScreen extends AppCompatActivity implements AdapterView.OnItemC
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         loadFrag(position); // load the correct fragment
+        lastClickedPosition = position == 2 ? lastClickedPosition : position;
         drawerLayout.closeDrawer(navList);
     }
 }
