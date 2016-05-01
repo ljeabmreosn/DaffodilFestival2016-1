@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Daffodil Festival 2016</string>
+    <string name="action_settings">Settings</string>
+    <string name="openDrawer">Open</string>
+    <string name="closeDrawer">Close</string>
+    <string name="welcome">Welcome to the 2016 Daffodil Festival!</string>
+    <string name="aboutUs">The Daffodil Festival is a pretty cool event. You should check us out!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nhi</string>
+    <string name="vendors">You will be able to sift through a long list, or you can use the vendor search engine.</string>
+    <string name="schedule">Here is the schedule of events for the Daffodil Festival</string>
+    <string name="map">(Insert map image here)</string>
+    <string name="transportation">Here is the bus information and other misc info</string>
+    <string name="landingImage">This image is supposed to catch the attention of the user</string>
+    <string name="thankSponsors">\nThank you to our sponsors for their support!</string>
+    <string name="dfLogo">2016 Daffodil Festival Logo</string>
+
+    <!-- Different sponsor type headers-->
+
+    <string name="kingAlfred">King Alfred Sponsors</string>
+    <string name="spellbinder">Spellbinder Sponsors</string>
+    <string name="dutchMaster">Dutch Master Sponsors</string>
+    <string name="cheerfulness">Cheerfulness Sponsors</string>
+    <string name="littleGem">Little Gem Sponsors</string>
+    <string name="jumbile">Jumbile Sponsors</string>
+
+    <!-- Actual sponsors-->
+
+    <string name="kingAlfredSponsors">
+        Land and Coates\nDaily Press
+    </string>
+
+    <string name="dutchMasterSponsors">
+        Riverside Health\nTidewater Home Funding\nWalter Reed Convalescent/Rehab Center\nGloucester Toyota/Scion
+    </string>
+
+    <string name="spellBinderSponsors">
+        Brent and Becky\'s\nWhitley\'s Peanut Factory\nPeace Frogs\n1st Advantage Federal Credit Union\nCourthouse Family Medicine\nWaste Management\nXtra 99.1 FM\nThe Family Fraternity Moose\nColonial Virginia Bank\nMiddle Peninsula Golf Carts
+    </string>
+
+    <string name="cheerfulnessSponsors">
+        David W. Muffleman MD\nChesapeake Bank\nFary Bros Building Materials\nCourthouse Restaurant
+    </string>
+
+    <string name="littleGemSponsors">
+        Harris Garage\nRappahannock Concrete\nBauer and Bridges Inc.\nEdward Jones Investments\nBallard and Serio, CPA\nBubba\'s Shrimp Shack\nHogg Funeral Home and Crematory
+    </string>
+
+    <string name="jumbileSponsors">
+        Hayes Cosmetic and Family Dentistry\nGloucester Ruritan Club
+    </string>
+
+
+</resources>

@@ -1,0 +1,147 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="daffodilfestivalva.org.daffodilfestival2016.Sponsors">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/sponsors"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/green"
+                android:textStyle="bold"
+                android:textSize="27sp"
+                android:text="@string/kingAlfred"
+                android:fontFamily="sans-serif-light"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16.5sp"
+                android:text="@string/kingAlfredSponsors"
+                android:fontFamily="sans-serif-light"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/green"
+                android:textStyle="bold"
+                android:textSize="27sp"
+                android:text="@string/dutchMaster"
+                android:fontFamily="sans-serif-light"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16.5sp"
+                android:text="@string/dutchMasterSponsors"
+                android:fontFamily="sans-serif-light"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/green"
+                android:textStyle="bold"
+                android:textSize="27sp"
+                android:text="@string/spellbinder"
+                android:fontFamily="sans-serif-light"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:textSize="16.5sp"
+                android:text="@string/spellBinderSponsors"
+                android:fontFamily="sans-serif-light"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/green"
+                android:textStyle="bold"
+                android:textSize="27sp"
+                android:text="@string/cheerfulness"
+                android:fontFamily="sans-serif-light"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16.5sp"
+                android:text="@string/cheerfulnessSponsors"
+                android:fontFamily="sans-serif-light"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/green"
+                android:textStyle="bold"
+                android:textSize="27sp"
+                android:text="@string/littleGem"
+                android:fontFamily="sans-serif-light"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16.5sp"
+                android:text="@string/littleGemSponsors"
+                android:fontFamily="sans-serif-light"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/green"
+                android:textStyle="bold"
+                android:textSize="27sp"
+                android:text="@string/jumbile"
+                android:fontFamily="sans-serif-light"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16.5sp"
+                android:text="@string/jumbileSponsors"
+                android:fontFamily="sans-serif-light"
+                />
+
+            <TextView
+                android:id="@+id/thanks"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/thankSponsors"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/green"
+                android:textStyle="bold"
+                android:textSize="27sp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
