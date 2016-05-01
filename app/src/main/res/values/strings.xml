@@ -12,6 +12,13 @@
     <string name="landingImage">This image is supposed to catch the attention of the user</string>
     <string name="thankSponsors">\nThank you to our sponsors for their support!</string>
     <string name="dfLogo">2016 Daffodil Festival Logo</string>
+    
+    <!-- Names of Variables used in ViewPDF.java -->
+    <string name="pdf_extension">.pdf</string>
+    <string name="map_name">MapofDaffodilFestival2016</string>
+    <string name="map_url">https://projecteulerfun.files.wordpress.com/2016/04/df-site-map-2016.pdf</string>
+    <string name="googlepdfviewer_url">http://docs.google.com/viewer?url=</string>
+    <string name="contact_us_url">http://daffodilfestivalva.org/contact-us/</string>
 
     <!-- Different sponsor type headers-->
 
